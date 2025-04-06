@@ -1,0 +1,56 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  color: #3b82f6;
+}
+
+.visualization-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+#network-graph {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+#codelist-viz {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #fff;
+  margin-top: 2rem;
+}
+
+.bar {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.values-list {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.values-list ul {
+  columns: 3;
+  padding-left: 20px;
+}
+
+.values-list li {
+  break-inside: avoid;
+}
+
+h1 {
+  color: #2563eb;
+}
